@@ -1,9 +1,9 @@
-package algorithms;
+package com.kazimsoylu.hackerrank.algorithms.search;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class TransmittersV3 {
+public class Transmitters {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
@@ -51,7 +51,6 @@ public class TransmittersV3 {
 			}
 		}
 
-		//currentIndex += range;
 		currentIndex = incrementIndex(currentIndex, range, array.length);
 
 		// check if the house exists at currentIndex
